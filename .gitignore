@@ -1,0 +1,65 @@
+# Video Classification Dataset - Git Ignore
+# Author: Molla Samser
+# Designer & Tester: Rima Khatun
+# Website: https://rskworld.in
+# Email: help@rskworld.in, support@rskworld.in
+# Phone: +91 93305 39277
+# Organization: RSK World
+
+# Data directories
+data/
+frames/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Metadata
+metadata.json
+
+# Temporary files
+*.tmp
+*.temp
+

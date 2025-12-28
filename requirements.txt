@@ -1,0 +1,18 @@
+# Video Classification Dataset - Requirements
+# Author: Molla Samser
+# Designer & Tester: Rima Khatun
+# Website: https://rskworld.in
+# Email: help@rskworld.in, support@rskworld.in
+# Phone: +91 93305 39277
+# Organization: RSK World
+
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+tqdm>=4.66.0
+pyyaml>=6.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+

@@ -1,0 +1,59 @@
+# Video Classification Dataset Configuration
+# Author: Molla Samser
+# Designer & Tester: Rima Khatun
+# Website: https://rskworld.in
+# Email: help@rskworld.in, support@rskworld.in
+# Phone: +91 93305 39277
+# Organization: RSK World
+
+dataset:
+  name: "Video Classification Dataset"
+  version: "1.0.0"
+  description: "Video classification dataset with labeled video clips across multiple categories"
+  
+  paths:
+    train: "data/train"
+    test: "data/test"
+    validation: "data/validation"
+    frames: "frames"
+    
+  splits:
+    train_ratio: 0.7
+    test_ratio: 0.2
+    validation_ratio: 0.1
+
+video:
+  formats:
+    - "mp4"
+    - "mov"
+    - "avi"
+    - "mkv"
+    
+  processing:
+    fps: 30
+    resolution: [224, 224]
+    max_duration: 10  # seconds
+    
+frame_extraction:
+  fps: 1  # Extract 1 frame per second
+  format: "jpg"
+  quality: 95
+
+categories:
+  - "action"
+  - "comedy"
+  - "drama"
+  - "sports"
+  - "documentary"
+  - "news"
+  - "music"
+  - "education"
+
+metadata:
+  author: "Molla Samser"
+  designer: "Rima Khatun"
+  website: "https://rskworld.in"
+  email: "help@rskworld.in"
+  phone: "+91 93305 39277"
+  organization: "RSK World"
+
